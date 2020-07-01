@@ -1,0 +1,70 @@
+网上商城数据库（onlinemall）
+
+管理员表（admin）
+admin_id  int  3(主键、自动增长)
+admin_name  vachar  20
+admin_password  vachar  20
+
+
+用户表（user）
+uid  int  4(主键、自动增长)
+ulogo  varchar  30
+uname  varchar  20
+utel  varchar  30
+upassword  varchar  20
+uemail  varchar  30
+address  varchar  50
+uquestion  varchar  30
+uanswer  varchar  20
+uregtime  varchar  30
+ustel  varchar  30
+
+
+商品表（goods）
+gid  int  5（主键、自动增长）
+gname  varchar  30
+gprice  varchar  10
+gpic  varchar  500
+gintroduce  varchar  500
+gtypeid  int  2
+gnum  int  5
+gsales  int  6
+gdate  vatchar  20
+
+
+购物车表（buycar）
+bid  int  4（主键、自动增长）
+uid  int  4
+gid  int  5
+bnum  int  2
+bdate  varchar  20
+
+
+订单表（order）
+oid  int  5（主键、自动增长）
+uid  int  4
+gid  int  5
+otype  int 2
+bnum  int  2
+bdate  varchar  20
+
+
+商品评论表（goodsmark）
+mid int  5
+gid  int  5
+uid  int  5
+gmark  varchar  200
+gdate  varchar  20
+
+
+
+
+
+
+
+
+
+
+
+
+

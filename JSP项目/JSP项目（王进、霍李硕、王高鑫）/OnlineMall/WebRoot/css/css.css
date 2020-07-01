@@ -1,0 +1,177 @@
+
+.button{
+	text-decoration:none;
+    padding: 5px 8px;
+    width: 82px;
+    border: 1px solid ;
+    box-shadow: 0 1px 1px #aaa;
+    -moz-box-shadow: 0 1px 1px #aaa;
+    -webkit-box-shadow: 0 1px 1px #aaa;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+    overflow: visible;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    *zoom: 1;
+    background: url(../images/login.png) repeat-x #ffe297;
+    color: #7b5d1d;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.button1{
+	text-decoration:none;
+    padding: 5px 8px;
+    width: 28px;
+    border: 1px solid ;
+    box-shadow: 0 1px 1px #aaa;
+    -moz-box-shadow: 0 1px 1px #aaa;
+    -webkit-box-shadow: 0 1px 1px #aaa;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+    overflow: visible;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    *zoom: 1;
+    background: url(../images/login.png) repeat-x #ffe297;
+    color: #7b5d1d;
+    font-size: 8px;
+    line-height: 1.5;
+}
+
+.formshop{
+	font-size: 22px;
+}
+
+
+textarea{
+	font-size:15px;
+	
+}
+.form{
+	font-size:20px;
+	
+}
+.button2{
+	text-decoration:none;
+    padding: 5px 8px;
+    width: 100px;
+    border: 1px solid ;
+    box-shadow: 0 1px 1px #aaa;
+    -moz-box-shadow: 0 1px 1px #aaa;
+    -webkit-box-shadow: 0 1px 1px #aaa;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+    overflow: visible;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    *zoom: 1;
+    background: url(../images/login.png) repeat-x #ffe297;
+    color: #7b5d1d;
+    font-size: 15px;
+    line-height: 1.5;
+}
+¡£spxx{
+	height:20px;
+}
+.spimg{
+	height:60px;
+}
+
+.button3{
+	text-decoration:none;
+    padding: 5px 8px;
+    width: 100px;
+    border: 1px solid ;
+    box-shadow: 0 1px 1px #aaa;
+    -moz-box-shadow: 0 1px 1px #aaa;
+    -webkit-box-shadow: 0 1px 1px #aaa;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+    overflow: visible;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    *zoom: 1;
+    background: url(../images/login.png) repeat-x #ffe297;
+    color: #7b5d1d;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.button4{
+	text-decoration:none;
+    padding: 5px 8px;
+    width: 60px;
+    border: 1px solid ;
+    box-shadow: 0 1px 1px #aaa;
+    -moz-box-shadow: 0 1px 1px #aaa;
+    -webkit-box-shadow: 0 1px 1px #aaa;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+    overflow: visible;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    *zoom: 1;
+    background: url(../images/login.png) repeat-x #ffe297;
+    color: #7b5d1d;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.button5{
+	text-decoration:none;
+    padding: 5px 8px;
+    margin-right:20px;
+    width: 100px;
+    border: 1px solid ;
+    box-shadow: 0 1px 1px #aaa;
+    -moz-box-shadow: 0 1px 1px #aaa;
+    -webkit-box-shadow: 0 1px 1px #aaa;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+    overflow: visible;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    *zoom: 1;
+    background: url(../images/login.png) repeat-x #ffe297;
+    color: #7b5d1d;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.button6{
+	text-decoration:none;
+    padding: 5px 8px;
+    width: 70px;
+    border: 1px solid ;
+    box-shadow: 0 1px 1px #aaa;
+    -moz-box-shadow: 0 1px 1px #aaa;
+    -webkit-box-shadow: 0 1px 1px #aaa;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+    overflow: visible;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    *zoom: 1;
+    background: url(../images/login.png) repeat-x #ffe297;
+    color: #7b5d1d;
+    font-size: 12px;
+    line-height: 1.5;
+}

@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//src/com/hls/servlet/HAddGoodsServlet.java=UTF-8
+encoding//src/com/wj/servlet/WAddUserServlet.java=UTF-8
+encoding//src/com/wj/servlet/WConfirmServlet.java=UTF-8
+encoding//src/com/wj/servlet/WDeleteOrderServlet.java=UTF-8
+encoding//src/com/wj/servlet/WGoodsResultServlet.java=UTF-8
+encoding//src/com/wj/servlet/WLoginUserServlet.java=UTF-8
+encoding//src/com/wj/servlet/WMyCatServlet.java=UTF-8
+encoding//src/com/wj/servlet/WMyMarkServlet.java=UTF-8
+encoding//src/com/wj/servlet/WMyOrderServlet.java=UTF-8
+encoding//src/com/wj/servlet/WPersonalServlet.java=UTF-8
+encoding//src/com/wj/servlet/WQuMarkServlet.java=UTF-8
+encoding//src/com/wj/servlet/WTuiHuoServlet.java=UTF-8
+encoding//src/com/wj/servlet/WUpdatePasswordServlet.java=UTF-8
+encoding//src/com/wj/servlet/WUpdatePersonalServlet.java=UTF-8

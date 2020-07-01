@@ -1,0 +1,7 @@
+项目部署方法：
+1、把项目OnlineMall导入，然后把upload文件夹放入服务器项目里面
+2、把数据库导入、数据库用户名root  密码123456 不是的去每个dao里面修改下链接密码
+3、然后运行前端首页http://localhost:8080/OnlineMall/main.jsp
+后端首页http://localhost:8080/OnlineMall/Loginh.jsp
+
+完成后就可以使用该项目了

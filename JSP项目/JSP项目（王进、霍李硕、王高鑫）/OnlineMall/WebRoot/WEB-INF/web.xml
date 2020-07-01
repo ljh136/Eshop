@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>OnlineMall</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <!-- 编码过滤器 -->
+  <filter>
+     <filter-name>EncodingFilter</filter-name>
+     <filter-class>com.wj.filter.EncodingFilter</filter-class>
+     
+  </filter>
+  <filter-mapping>
+      <filter-name>EncodingFilter</filter-name>
+      <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  <!-- servlet配置 -->
+  <!-- wj -->
+  <servlet>
+    <servlet-name>WAddUserServlet</servlet-name>
+    <servlet-class>com.wj.servlet.WAddUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WLoginUserServlet</servlet-name>
+    <servlet-class>com.wj.servlet.WLoginUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WPersonalServlet</servlet-name>
+    <servlet-class>com.wj.servlet.WPersonalServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WMyCatServlet</servlet-name>
+    <servlet-class>com.wj.servlet.WMyCatServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WMyOrderServlet</servlet-name>
+    <servlet-class>com.wj.servlet.WMyOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WMyMarkServlet</servlet-name>
+    <servlet-class>com.wj.servlet.WMyMarkServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WUpdatePersonalServlet</servlet-name>
+    <servlet-class>com.wj.servlet.WUpdatePersonalServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WUpdatePasswordServlet</servlet-name>
+    <servlet-class>com.wj.servlet.WUpdatePasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WDeleteCatServlet</servlet-name>
+    <servlet-class>com.wj.servlet.WDeleteCatServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WTuiHuoServlet</servlet-name>
+    <servlet-class>com.wj.servlet.WTuiHuoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WConfirmServlet</servlet-name>
+    <servlet-class>com.wj.servlet.WConfirmServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WQuMarkServlet</servlet-name>
+    <servlet-class>com.wj.servlet.WQuMarkServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WGoodsResultServlet</servlet-name>
+    <servlet-class>com.wj.servlet.WGoodsResultServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WDeleteOrderServlet</servlet-name>
+    <servlet-class>com.wj.servlet.WDeleteOrderServlet</servlet-class>
+  </servlet>
+  
+	<!-- wgx -->
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>maingoodquary</servlet-name>
+    <servlet-class>com.wgx.servlet.maingoodquary</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>goodinformation</servlet-name>
+    <servlet-class>com.wgx.servlet.goodinformation</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>buycar</servlet-name>
+    <servlet-class>com.wgx.servlet.buycar</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>goclothes</servlet-name>
+    <servlet-class>com.wgx.servlet.goclothes</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gosmarttoys</servlet-name>
+    <servlet-class>com.wgx.servlet.gosmarttoys</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>golifeneeds</servlet-name>
+    <servlet-class>com.wgx.servlet.golifeneeds</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>godeliciousfood</servlet-name>
+    <servlet-class>com.wgx.servlet.godeliciousfood</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gopayforit</servlet-name>
+    <servlet-class>com.wgx.servlet.gopayforit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>gomark</servlet-name>
+    <servlet-class>com.wgx.servlet.gomark</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>marked</servlet-name>
+    <servlet-class>com.wgx.servlet.marked</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>paid</servlet-name>
+    <servlet-class>com.wgx.servlet.paid</servlet-class>
+  </servlet>
+  
+  
+
+<!-- wj -->
+  <servlet-mapping>
+    <servlet-name>WAddUserServlet</servlet-name>
+    <url-pattern>/WAddUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WLoginUserServlet</servlet-name>
+    <url-pattern>/WLoginUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WPersonalServlet</servlet-name>
+    <url-pattern>/WPersonalServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WMyCatServlet</servlet-name>
+    <url-pattern>/WMyCatServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WMyOrderServlet</servlet-name>
+    <url-pattern>/WMyOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WMyMarkServlet</servlet-name>
+    <url-pattern>/WMyMarkServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WUpdatePersonalServlet</servlet-name>
+    <url-pattern>/WUpdatePersonalServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WUpdatePasswordServlet</servlet-name>
+    <url-pattern>/WUpdatePasswordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WDeleteCatServlet</servlet-name>
+    <url-pattern>/WDeleteCatServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WTuiHuoServlet</servlet-name>
+    <url-pattern>/WTuiHuoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WConfirmServlet</servlet-name>
+    <url-pattern>/WConfirmServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WQuMarkServlet</servlet-name>
+    <url-pattern>/WQuMarkServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WGoodsResultServlet</servlet-name>
+    <url-pattern>/WGoodsResultServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WDeleteOrderServlet</servlet-name>
+    <url-pattern>/WDeleteOrderServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+<!--   wgx -->
+  <servlet-mapping>
+    <servlet-name>maingoodquary</servlet-name>
+    <url-pattern>/maingoodquary</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>goodinformation</servlet-name>
+    <url-pattern>/goodinformation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>buycar</servlet-name>
+    <url-pattern>/buycar</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>goclothes</servlet-name>
+    <url-pattern>/goclothes</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gosmarttoys</servlet-name>
+    <url-pattern>/gosmarttoys</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>golifeneeds</servlet-name>
+    <url-pattern>/golifeneeds</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>godeliciousfood</servlet-name>
+    <url-pattern>/godeliciousfood</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gopayforit</servlet-name>
+    <url-pattern>/gopayforit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gomark</servlet-name>
+    <url-pattern>/gomark</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>marked</servlet-name>
+    <url-pattern>/marked</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>paid</servlet-name>
+    <url-pattern>/paid</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <!-- hls -->
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Insertservlet</servlet-name>
+    <servlet-class>com.hls.servlet.Insertservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Goodall</servlet-name>
+    <servlet-class>com.hls.servlet.Goodall</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>Insertservlet</servlet-name>
+    <url-pattern>/Insertservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Goodall</servlet-name>
+    <url-pattern>/Goodall</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.hls.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListServlet</servlet-name>
+    <servlet-class>com.hls.servlet.ListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>IntroduceServlet</servlet-name>
+    <servlet-class>com.hls.servlet.IntroduceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddShopServlet</servlet-name>
+    <servlet-class>com.hls.servlet.AddShopServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PicDownloadServlet</servlet-name>
+    <servlet-class>com.hls.servlet.PicDownloadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HAddGoodsServlet</servlet-name>
+    <servlet-class>com.hls.servlet.HAddGoodsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateServlet</servlet-name>
+    <servlet-class>com.hls.servlet.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>updateGoServlet</servlet-name>
+    <servlet-class>com.hls.servlet.updateGoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteShopServlet</servlet-name>
+    <servlet-class>com.hls.servlet.DeleteShopServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryGoodServlet</servlet-name>
+    <servlet-class>com.hls.servlet.QueryGoodServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryGoodServlet1</servlet-name>
+    <servlet-class>com.hls.servlet.QueryGoodServlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Text1</servlet-name>
+    <servlet-class>com.hls.servlet.Text1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Horderlistservlet</servlet-name>
+    <servlet-class>com.hls.servlet.Horderlistservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Horderlistservlet2</servlet-name>
+    <servlet-class>com.hls.servlet.Horderlistservlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Horderuserservlet</servlet-name>
+    <servlet-class>com.hls.servlet.Horderuserservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Hordergoodservlet</servlet-name>
+    <servlet-class>com.hls.servlet.Hordergoodservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HGoodsMarkservlet</servlet-name>
+    <servlet-class>com.hls.servlet.HGoodsMarkservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Hdeletemarkservlet</servlet-name>
+    <servlet-class>com.hls.servlet.Hdeletemarkservlet</servlet-class>
+  </servlet>
+
+
+  
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListServlet</servlet-name>
+    <url-pattern>/ListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IntroduceServlet</servlet-name>
+    <url-pattern>/IntroduceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddShopServlet</servlet-name>
+    <url-pattern>/AddShopServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PicDownloadServlet</servlet-name>
+    <url-pattern>/PicDownloadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HAddGoodsServlet</servlet-name>
+    <url-pattern>/HAddGoodsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateServlet</servlet-name>
+    <url-pattern>/UpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateGoServlet</servlet-name>
+    <url-pattern>/updateGoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteShopServlet</servlet-name>
+    <url-pattern>/DeleteShopServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryGoodServlet</servlet-name>
+    <url-pattern>/QueryGoodServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryGoodServlet1</servlet-name>
+    <url-pattern>/QueryGoodServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Text1</servlet-name>
+    <url-pattern>/Text1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Horderlistservlet</servlet-name>
+    <url-pattern>/Horderlistservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Horderlistservlet2</servlet-name>
+    <url-pattern>/Horderlistservlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Horderuserservlet</servlet-name>
+    <url-pattern>/Horderuserservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Hordergoodservlet</servlet-name>
+    <url-pattern>/Hordergoodservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HGoodsMarkservlet</servlet-name>
+    <url-pattern>/HGoodsMarkservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Hdeletemarkservlet</servlet-name>
+    <url-pattern>/Hdeletemarkservlet</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>

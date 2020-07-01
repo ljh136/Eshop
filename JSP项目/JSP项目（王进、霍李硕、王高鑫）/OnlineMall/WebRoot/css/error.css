@@ -1,0 +1,49 @@
+
+.button{
+	margin-top:10px;
+	margin-left:80px;
+	text-decoration:none;
+    padding: 5px 8px;
+    width: 100px;
+    border: 1px solid #088f52;
+    box-shadow: 0 1px 1px #aaa;
+    -moz-box-shadow: 0 1px 1px #aaa;
+    -webkit-box-shadow: 0 1px 1px #aaa;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+    overflow: visible;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    *zoom: 1;
+    background: url(../images/login.png) repeat-x #ffe297;
+    color: #7b5d1d;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.button1{
+	margin-top:10px;
+	margin-left:80px;
+	text-decoration:none;
+    padding: 5px 8px;
+    width: 80px;
+    border: 1px solid #088f52;
+    box-shadow: 0 1px 1px #aaa;
+    -moz-box-shadow: 0 1px 1px #aaa;
+    -webkit-box-shadow: 0 1px 1px #aaa;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+    overflow: visible;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    *zoom: 1;
+    background: url(../images/login.png) repeat-x #ffe297;
+    color: #7b5d1d;
+    font-size: 15px;
+    line-height: 1.5;
+}

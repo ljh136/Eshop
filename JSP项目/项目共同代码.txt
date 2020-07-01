@@ -1,0 +1,55 @@
+首页  main.jsp
+服装  goclothes
+电子  gosmarttoys
+食品  godeliciousfood
+生活用品  golifeneeds
+商品详细  goodinformation
+
+个人信息 WPersonalServlet
+我的购物车  WMyCatServlet
+我的订单 WMyOrderServlet
+评价管理  WMyMarkServlet
+关于我们  aboutus.jsp
+注销用户  login.jsp
+
+
+ <span style="margin-right:58%;"><a class="link" href="main.jsp" title="Home" >首页</a></span>
+ <c:if test="${user.uname==null }">
+ <span> <a class="link" href="login.jsp" >登录</a></span>
+ <span> <a class="ulogo" href="registered.jsp" >注册</a></span>
+ </c:if>
+  <c:if test="${user.uname!=null }">
+  <span> <a class="link" href="WPersonalServlet" >${user.uname }</a></span>
+ <span> <a class="ulogo" href="WPersonalServlet" ><img src="${user.ulogo }" width="40px;" height="40px;"></a></span>
+  </c:if>
+ <span> <a class="link" href="WMyCatServlet" title="购物车">购物车</a></span>
+ <span> <a class="link" href="WMyOrderServlet" title="订单">订单</a></span>
+ <span> <a class="link" href="error.jsp" title="反馈">用户反馈</a></span>
+ <span> <a  href="aboutus.jsp">关于我们</a></span>
+ <span> <a  href="joinus.jsp">加入我们</a></span>
+
+
+<span style="margin-right:60px;"><a href="goclothes">精选服装</a></span>
+<span style="margin-right:60px;"><a href="gosmarttoys">电子产品</a></span>
+<span style="margin-right:60px;"><a href="golifeneeds">生活用品</a></span>
+<span><a title="delisous food" href="godeliciousfood">休闲美食</a></span>
+
+
+    <h3><a href="WPersonalServlet">个人信息</a></h3>
+    <h3><a href="WMyCatServlet">我的购物车</a></h3>
+    <h3><a href="WMyOrderServlet">我的订单</a></h3>
+    <h3><a href="error.jsp">我的收藏</a></h3>
+    <h3><a href="WMyMarkServlet">评价管理</a></h3>
+    <h3><a href="error.jsp">我的足迹</a></h3>
+    <h3><a href="aboutus.jsp">关于我们</a></h3>
+    <h3><a href="login.jsp">注销用户</a></h3>
+
+ <span style="margin-right:55%;"><a class="link" href="main.jsp" title="Home" >首页</a></span>
+ <span> <a class="link" href="WPersonalServlet" >${user.uname }</a></span>
+ <span> <a class="ulogo" href="WPersonalServlet" ><img src="${user.ulogo }" width="40px;" height="40px;"></a></span>
+ <span> <a class="link" href="WMyCatServlet" title="购物车">购物车</a></span>
+ <span> <a class="link" href="WMyOrderServlet" title="订单">订单</a></span>
+ <span> <a class="link" href="error.jsp" title="反馈">用户反馈</a></span>
+ <span> <a  href="aboutus.jsp" title="">关于我们</a></span>
+
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
